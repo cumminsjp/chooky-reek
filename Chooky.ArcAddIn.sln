@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chooky.ArcMap.Addin", "chooky-arcmap-addin\Chooky.ArcMap.Addin.csproj", "{B56E2BAD-ECAF-46F1-8683-F216697405CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chooky.Tests", "chooky-tests\Chooky.Tests.csproj", "{F62855A2-D3ED-45A9-98A4-58F456BAE949}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{7870BFC2-1E17-4228-AF83-06438FC13998}"
+	ProjectSection(SolutionItems) = preProject
+		chooky-arcmap-addin\.nuget\packages.config = chooky-arcmap-addin\.nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chooky.Core", "Chooky.Core\Chooky.Core.csproj", "{040B8F9C-82E0-4DBA-9B5F-1C16F6F4D13C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chooky.ArcGISPro.AddIn", "Chooky.ArcGISPro.AddIn\Chooky.ArcGISPro.AddIn.csproj", "{9E6DA17C-2945-45A9-A4C3-2C016132BACD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chooky.Data.ArcGIS.Pro", "Chooky.Data.ArcGIS.Pro\Chooky.Data.ArcGIS.Pro.csproj", "{6FE7DAFF-12A1-40AC-ACBA-B5FD5EDCE11E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chooky.BLL", "Chooky.Bll\Chooky.BLL.csproj", "{A0B39818-9E74-4D92-B5F7-5C066CDFD3C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chooky.Data.ArcGIS.Desktop", "Chooky.Data.ArcGIS.Desktop\Chooky.Data.ArcGIS.Desktop.csproj", "{F95F35DF-182B-48C7-AF05-374935B0249D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B56E2BAD-ECAF-46F1-8683-F216697405CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B56E2BAD-ECAF-46F1-8683-F216697405CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B56E2BAD-ECAF-46F1-8683-F216697405CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B56E2BAD-ECAF-46F1-8683-F216697405CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F62855A2-D3ED-45A9-98A4-58F456BAE949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F62855A2-D3ED-45A9-98A4-58F456BAE949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F62855A2-D3ED-45A9-98A4-58F456BAE949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F62855A2-D3ED-45A9-98A4-58F456BAE949}.Release|Any CPU.Build.0 = Release|Any CPU
+		{040B8F9C-82E0-4DBA-9B5F-1C16F6F4D13C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{040B8F9C-82E0-4DBA-9B5F-1C16F6F4D13C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{040B8F9C-82E0-4DBA-9B5F-1C16F6F4D13C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{040B8F9C-82E0-4DBA-9B5F-1C16F6F4D13C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E6DA17C-2945-45A9-A4C3-2C016132BACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E6DA17C-2945-45A9-A4C3-2C016132BACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E6DA17C-2945-45A9-A4C3-2C016132BACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E6DA17C-2945-45A9-A4C3-2C016132BACD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FE7DAFF-12A1-40AC-ACBA-B5FD5EDCE11E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FE7DAFF-12A1-40AC-ACBA-B5FD5EDCE11E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FE7DAFF-12A1-40AC-ACBA-B5FD5EDCE11E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FE7DAFF-12A1-40AC-ACBA-B5FD5EDCE11E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0B39818-9E74-4D92-B5F7-5C066CDFD3C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0B39818-9E74-4D92-B5F7-5C066CDFD3C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0B39818-9E74-4D92-B5F7-5C066CDFD3C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0B39818-9E74-4D92-B5F7-5C066CDFD3C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F95F35DF-182B-48C7-AF05-374935B0249D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F95F35DF-182B-48C7-AF05-374935B0249D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F95F35DF-182B-48C7-AF05-374935B0249D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F95F35DF-182B-48C7-AF05-374935B0249D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
